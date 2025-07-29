@@ -1,0 +1,41 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Helvetica;
+}
+
+body {
+  margin: 8px;
+}
+
+header {
+  background-image: url(./images/1.jpeg);
+  text-align: center;
+  margin: 67px 0;
+}
+
+header h1 {
+  color: khaki;
+  font-weight: 700;
+  font-size: 100px;
+}
+
+.container img {
+  margin-bottom: 20px;
+}
+
+.brush {
+  color: white;
+  background-color: rgb(0, 250, 154);
+  margin-bottom: 26.5px;
+}
+
+.paragraph {
+  margin-top: 18px;
+}
+
+.paragraph span {
+  font-weight: bold;
+  color: rgb(0, 0, 255);
+}
