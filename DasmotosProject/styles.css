@@ -21,13 +21,13 @@ header h1 {
   font-size: 100px;
 }
 
-.container img {
+div img {
   margin-bottom: 20px;
 }
 
 .brush {
   color: white;
-  background-color: rgb(0, 250, 154);
+  background-color: MediumSpringGreen;
   margin-bottom: 26.5px;
 }
 
@@ -35,7 +35,19 @@ header h1 {
   margin-top: 18px;
 }
 
-.paragraph span {
+span {
   font-weight: bold;
   color: rgb(0, 0, 255);
+}
+
+.frames {
+  color: white;
+  background-color: LightCoral;
+  margin: 26.5px 0;
+}
+
+.paint {
+  color: white;
+  background-color: SkyBlue;
+  margin: 26.5px 0;
 }
