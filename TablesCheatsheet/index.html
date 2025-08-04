@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Table's cheatsheet</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <table>
+      <caption>
+        Table's cheatsheet
+      </caption>
+      <colgroup>
+        <col />
+        <col span="2" />
+        <col span="2" />
+      </colgroup>
+      <thead>
+        <th></th>
+        <th colspan="2" class="border color">Left Column</th>
+        <th colspan="2" class="border color">Right Column</th>
+      </thead>
+      <tbody>
+        <tr class="background">
+          <th rowspan="2" class="border color">Top two</th>
+          <td>Body 1,1</td>
+          <td>Body 1,2</td>
+          <td style="border-left: 2px solid black">Body 1,3</td>
+          <td>Body 1,4</td>
+        </tr>
+        <tr class="background">
+          <td>Body 2,1</td>
+          <td>Body 2,2</td>
+          <td style="border-left: 2px solid black">Body 2,3</td>
+          <td>Body 2,4</td>
+        </tr>
+        <tr class="background" style="border-top: 2px solid black">
+          <th rowspan="2" class="border color">Bottom two</th>
+          <td>Body 3,1</td>
+          <td>Body 3,2</td>
+          <td style="border-left: 2px solid black">Body 3,3</td>
+          <td>Body 3,4</td>
+        </tr>
+        <tr class="background">
+          <td>Body 4,1</td>
+          <td>Body 4,2</td>
+          <td style="border-left: 2px solid black">Body 4,3</td>
+          <td>Body 4,4</td>
+        </tr>
+      </tbody>
+      <tfoot class="border background">
+        <tr>
+          <th class="border color">Footer</th>
+          <td>Footer 1</td>
+          <td>Footer 2</td>
+          <td style="border-left: 2px solid black">Footer 3</td>
+          <td>Footer 4</td>
+        </tr>
+      </tfoot>
+    </table>
+  </body>
+</html>

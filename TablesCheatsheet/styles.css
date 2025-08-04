@@ -1,0 +1,38 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #afeeee;
+}
+
+table {
+  margin: 0 auto;
+  border-collapse: collapse;
+  width: 30%;
+  text-align: center;
+}
+
+caption {
+  font-weight: bold;
+  font-size: 20px;
+  color: #800000;
+}
+
+.border {
+  border: 2px solid black;
+}
+
+tbody {
+  border: 2px solid black;
+}
+
+.color {
+  background-color: #d2691e;
+}
+
+.background {
+  background-color: #ffe4c4;
+}
